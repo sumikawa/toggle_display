@@ -1,3 +1,5 @@
+English document is [here](./README_en.md)
+
 ## これは何
 
 Macbookの内蔵ディスプレイの無効/有効を切り替えるスクリプトです。
