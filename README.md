@@ -27,9 +27,11 @@ toggle_display.py
 [Karabiner-Elements](https://karabiner-elements.pqrs.org/)と組み合わせて、適当なキーに本スクリプトをアサインすることをお勧めします。私は下記のルールを書いてCommand + Lに割り当てています。
 
 ```
+{
+  "title": "Toggle Display",
   "rules": [
     {
-      "description": "Command + L で 内蔵ディスプレイの有効/無効を切り替える",
+      "description": "Toggle the enabling and disabling of a built-in display",
       "manipulators": [
         {
           "from": {
@@ -51,5 +53,7 @@ toggle_display.py
           "type": "basic"
         }
       ]
-    }]
+    }
+  ]
+}
 ```

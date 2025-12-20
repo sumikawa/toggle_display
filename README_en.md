@@ -27,9 +27,11 @@ If you run this command without an external display connected, or if you move to
 It is recommended to use this script in combination with [Karabiner-Elements](https://karabiner-elements.pqrs.org/) to assign it to a convenient key. I use the following rule to assign it to Command + L.
 
 ```
+{
+  "title": "Toggle Display",
   "rules": [
     {
-      "description": "Toggle the built-in display with Command + L",
+      "description": "Toggle the enabling and disabling of a built-in display",
       "manipulators": [
         {
           "from": {
@@ -51,5 +53,7 @@ It is recommended to use this script in combination with [Karabiner-Elements](ht
           "type": "basic"
         }
       ]
-    }]
+    }
+  ]
+}
 ```
